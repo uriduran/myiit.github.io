@@ -9,7 +9,7 @@
 3. **The current site goes like this**
     *Log in 
     *Welcome page![Welcome](images/welcome-page.png)
-    *Banner Self Service here you can view OR update your personal information ![Bannerself service](/banner-self-service.png) 
+    *Banner Self Service here you can view OR update your personal information ![Bannerself service](images/banner-self-service.png) 
    ![View adress](images/view-addresses.png)
    ![Update adress](images/update-address-phone.png) 
     *This is the same for all other items

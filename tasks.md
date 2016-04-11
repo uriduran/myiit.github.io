@@ -27,14 +27,32 @@ in various pages. The goal is to bring them all together into a single page in a
     and the place where you can do that takes about 10% of the page.)
     
    ![View adress](images/view-addresses.png)
+   
+4. **STEP:**
+
+    This next capture is of the same page. Here we demonstrate the minute size of the most important thing on this page.
+    There is also a large and unatractive wall of text explaining how to add a simple phone number.
+    We will be looking to simplify this while still being informational to the user.
+    
    ![Update adress](images/update-address-phone.png) 
-    *This is the same for all other items
-4. **Decide as a team on a better design**
-    * 
-5. **Redesigned MyIIT login page**
+  
+**This is an example for the page where you can update/add phone numbers. All the other pages for things like name updates or 
+emergency contact updates follows this similar pattern of being hidden away behind too many clicks.**
+
+**GOALS:**
+
+1. **Plan an execute a simple and visualing appealing process to update information.**
+     
+2. **Redesigned my.iit.edu log in page:**
     *[MyIIT](https://my.iit.edu/cp/home/displaylogin)
-    * 
-6. **Redesigned MyIIT welcome page**
-    * 
-7. **Redisgn the "Personal Information" part of the website**
-    * 
+    Create a log in page where the main focus of the site is to log in, opposite to what is currently the case.
+    
+3. **Redesigned MyIIT welcome page:**
+    Attempt to organize the information better. While we agree that a lot of the information on the site
+    is useful and beneficial (thus required to be on the page,) we agree that it could be presented in a more appealing manner.
+    If we cannot "uncrowd" the information then we must find a way to make it pleasant to look at.
+    
+    
+4. **Redisgn the "Personal Information" part of the website:**
+    As described in the first section of this markdown. This is the portion of the website that our group
+    will be focusing on.

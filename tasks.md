@@ -5,12 +5,21 @@ in various pages. The goal is to bring them all together into a single page in a
 
 **Below are the current steps required to reach (one of the pages) that allows you to change/add personal information.**
  
-1. **STEP ONE:** 
+1. **STEP:** 
 
     User logs in via my.iit.edu website and is greeted with the welcome page:
     
     *Welcome page![Welcome](images/welcome-page.png)
-    *Banner Self Service here you can view OR update your personal information ![Bannerself service](images/banner-self-service.png) 
+2. **STEP:**
+    
+    User must then find tucked in the corner a menu labeled "Banner Self-Service.
+    
+    The user is presented with an overwhelming amount of options that they have to swift through
+    in order to find something as simple as viewing their emergency contacts.
+    
+    *Banner Self Service![Bannerself service](images/banner-self-service.png) 
+    
+3. **STEP:**
    ![View adress](images/view-addresses.png)
    ![Update adress](images/update-address-phone.png) 
     *This is the same for all other items

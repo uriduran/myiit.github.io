@@ -7,8 +7,9 @@ in various pages. The goal is to bring them all together into a single page in a
  
 1. **STEP ONE:** 
 
-    *User logs in via my.iit.edu website and is greeted with the welcome page:
-    [Welcome](images/welcome-page.png)
+    User logs in via my.iit.edu website and is greeted with the welcome page:
+    
+    *Welcome page![Welcome](images/welcome-page.png)
     *Banner Self Service here you can view OR update your personal information ![Bannerself service](images/banner-self-service.png) 
    ![View adress](images/view-addresses.png)
    ![Update adress](images/update-address-phone.png) 

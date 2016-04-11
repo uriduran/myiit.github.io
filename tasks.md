@@ -20,6 +20,12 @@ in various pages. The goal is to bring them all together into a single page in a
     *Banner Self Service![Bannerself service](images/banner-self-service.png) 
     
 3. **STEP:**
+
+    Once the user decides what page they wish to visit they are presented with this.
+    For this example we selected the page to update/add phone numbers.
+    We believe that the layout is both uninviting and too small (the whole point of this page is to add phone numbers
+    and the place where you can do that takes about 10% of the page.)
+    
    ![View adress](images/view-addresses.png)
    ![Update adress](images/update-address-phone.png) 
     *This is the same for all other items

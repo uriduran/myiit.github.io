@@ -1,5 +1,5 @@
 #Task Analysis
-*The goal of this project is to redesign the webpage where the user is able to update personal information (such as emergency
+The goal of this project is to redesign the webpage where the user is able to update personal information (such as emergency
 contacts, name changes, address changes, etc.) Currently the important information and where to input new information is spread around
 in various pages. The goal is to bring them all together into a single page in a manner that is simple and fluid.
 

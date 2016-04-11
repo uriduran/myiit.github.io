@@ -1,5 +1,8 @@
 #Task Analysis
-*Here we will describe the list of steps that we need to take to redisgn the "Personal Information" part of the website.
+*The goal of this project is to redesign the webpage where the user is able to update personal information (such as emergency
+contacts, name changes, address changes, etc.) Currently the important information and where to input new information is spread around
+in various pages. The goal is to bring them all together into a single page in a manner that is simple and fluid.
+
 1. ****Identify the current route to get to the "Personal Information" part of the website
     * the current 
     *

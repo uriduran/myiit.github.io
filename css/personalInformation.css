@@ -54,7 +54,9 @@ table {
 #section {
 	list-style: none;
 	padding: 0 0 0 0;
-	width: 170px;
+	width: 50em;
+    display: block;
+    margin: 10em auto;
 }
 
 #section .section-header{
@@ -62,10 +64,10 @@ table {
 	background-color: lightgrey;
 	font-weight: bold;
 	margin: 0.2em;
+    padding: 1em 0.2em;
 	cursor: pointer;
-	padding: 5 5 5 7px;
 	list-style: circle;
-	border-radius: 0.4em;
+	border-radius: 0.2em;
 }
 
 #section .section-content{

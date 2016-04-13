@@ -1,12 +1,15 @@
 body{
     margin: 0%;
     padding: 0%;
+    background-color: #F3F3F3;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 #menulink{
     width:100%;
     background: #cc0000;
-    color:#fff;
+    color:black;
     height:55px;
     line-height:40px;
     text-indent:10px;
@@ -17,7 +20,7 @@ body{
     width:200px;
     height:100%;
     position:fixed;
-    background:black;
+    background:#D6D6D6;
     margin-left:-200px;
     
     }
@@ -35,7 +38,7 @@ body{
     
 }
 #menu ul li a{
-    color:#fff;
+    color:black;
     text-decoration:none;
     display:block;
     padding:12px 10px;

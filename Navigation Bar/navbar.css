@@ -1,0 +1,58 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#menulink{
+    width:100%;
+    background: #cc0000;
+    color:#fff;
+    height:55px;
+    line-height:40px;
+    text-indent:10px;
+    cursor:pointer;
+    }
+    
+#menu{
+    width:200px;
+    height:100%;
+    position:fixed;
+    background:black;
+    margin-left:-200px;
+    
+    }
+
+/*STYLINGS FOR THE MENU NAMES*/
+#menu ul{
+    margin:0px;
+    padding:0px 0px;
+    width:100%;
+    list-style:none;
+    }
+    
+#menu ul li{
+    font-size: 15px;
+    
+}
+#menu ul li a{
+    color:#fff;
+    text-decoration:none;
+    display:block;
+    padding:12px 10px;
+    border-bottom:solid 1px #333;
+    }
+    
+#menu ul li a:hover{
+    background:#000;
+    }
+    
+#threebar{
+    height:35px;
+    width: 35px;
+    padding-top: 1%;
+}
+#threebarc{
+    height:35px;
+    width: 35px;
+    padding-top: 1%;
+}

@@ -22,4 +22,17 @@
             <div></div>
         </ul>
     </body>
+
+    <script>
+        $("#section > li").click(function(){
+
+            if(false == $(this).next().is(':visible')) {
+                $('#section > ul').slideUp(300);
+            }
+            $(this).next().slideToggle(300);
+        });
+
+        $('#section > ul:eq(0)').show();
+
+    </script>
 </html>

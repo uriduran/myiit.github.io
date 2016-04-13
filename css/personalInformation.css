@@ -61,7 +61,7 @@ table {
 
 #section .section-header{
 	display: block;
-	background-color: lightgrey;
+	background-color: #F3F3F3;
 	font-weight: bold;
 	margin: 0.2em;
     padding: 1em 0.2em;
@@ -73,6 +73,9 @@ table {
 #section .section-content{
     height: 100px;
     list-style: none;
+    background-color: #D6D6D6;
+    width: 98%;
+    margin: 0 auto;
 }
 
 #section .section-content{

@@ -12,18 +12,35 @@
     </head>
     <body>
         <ul id="section">
-             <li>
+            <li>
                 <div class="section-header">
                     <div class="label">Emails</div>
                     <div class="summary">sjun4@hawk.iit.edu</div>
                     <dit class="edit">edit</dit>
                 </div>
-                <div class="section-content">        
-IIT email sjun4@hawk.iit.edu<br>
-Personal email xme1226@gmail.com	 
+                <div class="section-content">
+                    <div class="cotainer">
+                        <div class="bold">IIT email</div> <div class="content">sjun4@hawk.iit.edu</div>
+                        <div class="remove">
+                            <a href="">remove</a>
+                        </div>    
+                        <br>
+                        <div class="bold">Personal email</div>
+                        <div class="content">xme1226@gmail.com</div>	
+                        <div class="remove">
+                            <a href="">remove</a>
+                        </div>
+                        <hr>
+                        <a href="">Add another email</a>
+                        <hr>
+                        <div class="button">
+                            <button class="inner-button">Save Changes</button>
+                            <button class="inner-button">Cancel</button>
+                        </div>
+                    </div>
                 </div>
             </li>
-            
+
             <li>
                 <div class="section-header">
                     <div class="label">Phones</div>
@@ -31,7 +48,7 @@ Personal email xme1226@gmail.com
                     <dit class="edit">edit</dit>
                 </div>
                 <div class="section-content">
-                
+
                 </div>
             </li>
             <li>
@@ -41,7 +58,7 @@ Personal email xme1226@gmail.com
                     <dit class="edit">edit</dit>
                 </div>
                 <div class="section-content">
-                
+
                 </div>
             </li>
             <li>
@@ -51,7 +68,7 @@ Personal email xme1226@gmail.com
                     <dit class="edit">edit</dit>
                 </div>
                 <div class="section-content">
-                
+
                 </div>
             </li>
             <li>
@@ -61,7 +78,7 @@ Personal email xme1226@gmail.com
                     <dit class="edit">edit</dit>
                 </div>
                 <div class="section-content">
-                    
+
                 </div>
             </li>
 
@@ -79,5 +96,9 @@ Personal email xme1226@gmail.com
 
         $('#section > ul:eq(0)').show();
 
+        
+        $(".inner-button").click(function() {
+            $(this).parent().parent().parent().slideToggle(300);
+        });
     </script>
 </html>

@@ -50,3 +50,24 @@ table {
 
 /* Custome CSS */
 
+
+#section {
+	list-style: none;
+	padding: 0 0 0 0;
+	width: 170px;
+}
+
+#section li{
+	display: block;
+	background-color: lightgrey;
+	font-weight: bold;
+	margin: 0.2em;
+	cursor: pointer;
+	padding: 5 5 5 7px;
+	list-style: circle;
+	border-radius: 0.4em;
+}
+
+#section div{
+    height: 100px;
+}

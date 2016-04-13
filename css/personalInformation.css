@@ -52,6 +52,8 @@ table {
 
 
 #section {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 	list-style: none;
 	padding: 0 0 0 0;
 	width: 50em;
@@ -62,7 +64,6 @@ table {
 #section .section-header{
 	display: block;
 	background-color: #F3F3F3;
-	font-weight: bold;
 	margin: 0.2em;
     padding: 1em 0.2em;
 	cursor: pointer;

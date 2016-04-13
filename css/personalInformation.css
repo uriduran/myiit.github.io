@@ -57,7 +57,7 @@ table {
 	width: 170px;
 }
 
-#section li{
+#section .section-header{
 	display: block;
 	background-color: lightgrey;
 	font-weight: bold;
@@ -68,6 +68,12 @@ table {
 	border-radius: 0.4em;
 }
 
-#section div{
+#section .section-content{
     height: 100px;
+    list-style: none;
 }
+
+#section .section-content{
+    display: none;
+}
+

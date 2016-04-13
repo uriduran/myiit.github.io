@@ -10,21 +10,31 @@
     </head>
     <body>
         <ul id="section">
-            <li>Addresses</li>
-            <div></div>
-            <li>Phones</li>
-            <div></div>
-            <li>Latest</li>
-            <div></div>
-            <li>Emergency Contacts</li>
-            <div></div>
-            <li>Marital</li>
-            <div></div>
+            <li>
+                <div class="section-header">Addresses</div>
+                <ul class="section-content"></ul>
+            </li>
+            <li>
+                <div class="section-header">Phones</div>
+                <ul class="section-content"></ul>
+            </li>
+            <li>
+                <div class="section-header">Latest</div>
+                <ul class="section-content"></ul>
+            </li>
+            <li>
+                <div class="section-header">Emergency Contacts</div>
+                <ul class="section-content"></ul>
+            </li>
+            <li>
+                <div class="section-header">Marital</div>
+                <ul class="section-content"></ul>
+            </li>
         </ul>
     </body>
 
     <script>
-        $("#section > li").click(function(){
+        $("#section > li > div").click(function(){
 
             if(false == $(this).next().is(':visible')) {
                 $('#section > ul').slideUp(300);

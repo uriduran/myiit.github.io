@@ -51,9 +51,8 @@ table {
 /* Custome CSS */
 body{
 	width: 100%;
-	line-height: 1.5em;
+	line-height: 1.575em;
 	font-family: Helvetica;
-	height: 100%;
 }
 p{
 	font-size: 1.5em;
@@ -72,20 +71,16 @@ img{
 }
 #foot{
 	width: 100%;
+	background: #808080;
 }
 ul{
-	background: #808080;
-	margin: auto;
-	width: 50%;
-	float: left;
+	padding: 2.822em 0 2.822em 0;
 }
-li{
-	margin: auto;
-}
+
 form{
 	margin: auto;
+	padding: 2.822em 0 2.822em 0;
 	width: 16em;
-	padding: 0 0 6em 0;
 }
 form > a{
 	float: right;

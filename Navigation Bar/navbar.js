@@ -7,7 +7,7 @@ $(document).ready(function(){
 		$('#menulink').click(function(){
 			if($count%2!=0)
 			{
-			$('#menu').animate({"marginLeft":"0px"},500,function(){
+			$('#menu').animate({"marginLeft":"0px"},300,function(){
 				$('#menulink').html(openmen);
 			});
 			
@@ -15,7 +15,7 @@ $(document).ready(function(){
 			}
 			else
 			{
-			$('#menu').animate({"marginLeft":"-200px"},500,function(){
+			$('#menu').animate({"marginLeft":"-200px"},300,function(){
 			$('#menulink').html(closedmen);
 			});
 			

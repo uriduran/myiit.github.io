@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MyIIT</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+        <link rel="stylesheet" href="css/personalInformation.css" />
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <ul id="section">
+             <li>
+                <div class="section-header">
+                    <div class="label">Emails</div>
+                    <div class="summary">sjun4@hawk.iit.edu</div>
+                    <dit class="edit">edit</dit>
+                </div>
+                <div class="section-content">
+                    
+                </div>
+            </li>
+            
+            <li>
+                <div class="section-header">
+                    <div class="label">Phones</div>
+                    <div class="summary">ddddd</div>
+                    <dit class="edit">edit</dit>
+                </div>
+                <div class="section-content">
+                
+                </div>
+            </li>
+            <li>
+                <div class="section-header">
+                    <div class="label">Emergency Contacts</div>
+                    <div class="summary">ddddd</div>
+                    <dit class="edit">edit</dit>
+                </div>
+                <div class="section-content">
+                
+                </div>
+            </li>
+            <li>
+                <div class="section-header">
+                    <div class="label">Marital</div>
+                    <div class="summary">ddddd</div>
+                    <dit class="edit">edit</dit>
+                </div>
+                <div class="section-content">
+                
+                </div>
+            </li>
+            <li>
+                <div class="section-header">
+                    <div class="label">Addresses</div>
+                    <div class="summary">ddddd</div>
+                    <dit class="edit">edit</dit>
+                </div>
+                <div class="section-content">
+                    
+                </div>
+            </li>
+
+        </ul>
+    </body>
+
+    <script>
+        $("#section > li > div").click(function(){
+
+            if(false == $(this).next().is(':visible')) {
+                $('#section > ul').slideUp(300);
+            }
+            $(this).next().slideToggle(300);
+        });
+
+        $('#section > ul:eq(0)').show();
+
+    </script>
+</html>

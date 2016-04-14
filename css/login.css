@@ -50,6 +50,7 @@ table {
 
 /* Custome CSS */
 body{
+	width: 100%;
 	line-height: 1.5em;
 	font-family: Helvetica;
 }
@@ -59,11 +60,21 @@ p{
 a{
 	font-size: .937em;
 }
-
-
+img{
+	margin: auto;
+}
+form{}
+footer{
+	background: #f9f9f9;
+}
+form{
+	margin: auto;
+	width: 25%;
+}
 input, label{
 	margin: auto;	
 	display: block;
+	width: 100%;
 }
 img{
 	width:4em;

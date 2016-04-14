@@ -53,6 +53,7 @@ body{
 	width: 100%;
 	line-height: 1.5em;
 	font-family: Helvetica;
+	height: 100%;
 }
 p{
 	font-size: 1.5em;
@@ -69,8 +70,17 @@ img{
 	width: 6em;
 	margin: auto;
 }
-footer{
-	background: #f9f9f9;
+#foot{
+	width: 100%;
+}
+ul{
+	background: #808080;
+	margin: auto;
+	width: 50%;
+	float: left;
+}
+li{
+	margin: auto;
 }
 form{
 	margin: auto;

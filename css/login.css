@@ -60,10 +60,16 @@ p{
 a{
 	font-size: .937em;
 }
-img{
+#image{
+	width:6em;
+	height: 6em;
 	margin: auto;
 }
-form{}
+img{
+	width:6em;
+	height: 6em;
+	margin: auto;
+}
 footer{
 	background: #f9f9f9;
 }
@@ -71,12 +77,11 @@ form{
 	margin: auto;
 	width: 25%;
 }
+form > a{
+	float: right;
+}
 input, label{
 	margin: auto;	
 	display: block;
 	width: 100%;
-}
-img{
-	width:4em;
-	height: 4em;
 }

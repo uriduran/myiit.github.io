@@ -49,6 +49,13 @@ table {
 
 
 /* Custom CSS */
+#welcome body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
 
 #welcome header {
 	background-color: red;
@@ -56,6 +63,7 @@ table {
 	text-align: center;
 	vertical-align: middle;
 	padding: 1em;
+	font-family: 'Lato', sans-serif;
 }
 
 #welcome footer {
@@ -64,6 +72,7 @@ table {
 	text-align: center;
 	vertical-align: middle;
 	padding: 1em;
+	font-family: 'Lato', sans-serif;
 }
 
 #welcome section {
@@ -72,6 +81,7 @@ table {
 	text-align: center;
 	vertical-align: middle;
 	padding: 1.0em;
+	font-family: 'Lato', sans-serif;
 }
 
 #welcome h1 {
@@ -94,6 +104,15 @@ table {
 	position: relative;
 	font-size: 1.2em;
 	padding: 0.4em;
+}
+
+#welcome ul {
+	text-align: left;
+}
+
+#welcome li {
+	list-style-type: square;
+	margin: 1em;
 }
 
 #welcome p {

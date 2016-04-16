@@ -7,6 +7,12 @@ body{
 }
 
 #menulink{
+    float: left;
+    padding-top: 1.5%;
+    
+    }
+
+#menubar{
     width:100%;
     background: #cc0000;
     color:black;
@@ -14,10 +20,10 @@ body{
     line-height:40px;
     text-indent:10px;
     cursor:pointer;
-    }
-    
+    text-align: center;
+}
 #menu{
-    width:200px;
+    width:150px;
     height:100%;
     position:fixed;
     background:#D6D6D6;
@@ -40,7 +46,7 @@ body{
     color:black;
     text-decoration:none;
     display:block;
-    padding:12px 10px;
+    padding:10px 10px;
     border-bottom:solid 1px #333;
     }
     
@@ -51,7 +57,7 @@ body{
 #submenu{
     background:white;
     font-size: 12px;
-    text-indent: 20px;
+    padding-left: 5px;
     
 }
     
@@ -64,4 +70,10 @@ body{
     height:35px;
     width: 35px;
     padding-top: 1%;
+}
+
+#arrow{
+    height: 15px;
+    width: 25px;
+    float: right;
 }

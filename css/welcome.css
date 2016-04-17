@@ -70,7 +70,7 @@ table {
 #welcome img.headerLogo {
 	position: absolute;
 	float: right;
-	height: 3.5em;
+	height: 3em;
 	top: 0.8em;
 	right: 3em;
 }
@@ -88,7 +88,7 @@ table {
 #welcome img.footerLogo {
 	position: relative;
 	float: right;
-	height: 5em;
+	height: 3.5em;
 	padding: 0.5em 4em 0em 0em;
 }
 
@@ -109,27 +109,27 @@ table {
 
 #welcome h2 {
 	position: relative;
-	font-size: 2.0em;
-	padding: 0.5em 0.5em 0.5em 2em;
+	font-size: 1.8em;
+	padding: 0.5em 0.5em 0.5em 1em;
 }
 
 #welcome h3 {
 	position: relative;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	color: white;
-	padding: 0.5em 0.5em 0.5em 2.5em;
+	padding: 0.5em 0.5em 0.5em 1.8em;
 	background-color: grey;
 }
 
 #welcome h4 {
 	position: relative;
-	font-size: 1.2em;
-	padding: 0.5em 0.5em 0.5em 3.2em;
+	font-size: 1.1em;
+	padding: 0.5em 0.5em 0.5em 2.5em;
 }
 
 #welcome ul {
 	text-align: left;
-	padding: 0.5em 0.5em 0.5em 4em;
+	padding: 0.5em 0.5em 0.5em 3.2em;
 }
 
 #welcome li {
@@ -141,7 +141,7 @@ table {
 #welcome p {
 	position: relative;	
 	font-size: 1em;
-	padding: 0.2em 0.2em 0.2em 4em;
+	padding: 0.2em 0.2em 0.2em 2.7em;
 }
 
 #welcome p.legal {

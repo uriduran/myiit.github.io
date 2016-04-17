@@ -7,11 +7,7 @@ body{
     
 }
 
-#menulink{
-    float: left;
-    padding-top: 1.5%;
-    }
-
+/*FOR THE TOP OF THE MENU BAR WITH THE IIT LOGO*/
 #menubar{
     width:100%;
     background: #212121;
@@ -21,6 +17,7 @@ body{
     cursor:pointer;
     text-align: center;
 }
+/*THIS IS FOR THE MENU THAT APPEARS WHEN YOU CLICK THE THREE BAR ICON*/
 #menu{
     width:9.375em;
     height:100%;
@@ -29,6 +26,7 @@ body{
     margin-left:-12.5em;
     
     }
+/*IIT LOGO IN THE TOP MENU BAR*/
 #logo{
  height:95%;
 }
@@ -41,7 +39,7 @@ body{
     list-style:none;
     
     }
-    
+/*SUBMENU STYLINGS*/
 #menu ul li a{
     color:white;
     text-decoration:none;
@@ -49,30 +47,41 @@ body{
     padding:0.625em 0.625em;
     border-bottom:solid 1px #333;
     }
-    
+/*COLOR TO CHANGE WHEN YOU HOVER OVER A MENU/SUBMENU ITEM*/  
 #menu ul li a:hover{
     background:#b71c1c;
     }
 
+/*MORE SUBMENY STYLINGS*/
 #submenu{
     background:#383838 ;
     font-size: 0.750em;
     padding-left: 0.313em;
-    
-    
 }
-    
+
+/*AFFECTS THE THREE BAR MENU INDICATOR*/
+#menulink{
+    float: left;
+    padding-top: 1.5%;
+    }
+
+/*HORIZONTAL THREE BAR ICON*/
 #threebar{
     height:2.2em;
     width: 2.2em;
     padding-top: 1%;
 }
+/*VERTICAL THREE BAR ICON
+*I had to duplicate this for the javascript to work.
+*js would not use the same stylings "threebar" for both pictures.
+*/
 #threebarc{
     height:2.2em;
     width: 2.2em;
     padding-top: 1%;
 }
 
+/*STYLING FOR THE LITTLE ARROWS NEXT TO MENU ITEMS*/
 #arrow{
     height: 0.94em;
     width: 1.7em;

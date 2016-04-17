@@ -4,76 +4,77 @@ body{
     background-color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    
 }
 
 #menulink{
     float: left;
     padding-top: 1.5%;
-    
     }
 
 #menubar{
     width:100%;
-    background: #cc0000;
-    color:black;
+    background: #212121;
     height:55px;
-    line-height:40px;
-    text-indent:10px;
+    line-height:2.5em;
+    text-indent:0.625em;
     cursor:pointer;
     text-align: center;
 }
 #menu{
-    width:150px;
+    width:9.375em;
     height:100%;
     position:fixed;
-    background:#D6D6D6;
-    margin-left:-200px;
+    background:#212121;
+    margin-left:-12.5em;
     
     }
+#logo{
+ height:95%;
+}
 
 /*STYLINGS FOR THE MENU NAMES*/
 #menu ul{
-    margin:0px;
-    padding:0px 0px;
+    margin:0;
+    padding:0 0;
     width:100%;
     list-style:none;
+    
     }
     
-#menu ul li{
-    
-}
 #menu ul li a{
-    color:black;
+    color:white;
     text-decoration:none;
     display:block;
-    padding:10px 10px;
+    padding:0.625em 0.625em;
     border-bottom:solid 1px #333;
     }
     
 #menu ul li a:hover{
-    background:white;
+    background:#b71c1c;
     }
 
 #submenu{
-    background:white;
-    font-size: 12px;
-    padding-left: 5px;
+    background:#383838 ;
+    font-size: 0.750em;
+    padding-left: 0.313em;
+    
     
 }
     
 #threebar{
-    height:35px;
-    width: 35px;
+    height:2.2em;
+    width: 2.2em;
     padding-top: 1%;
 }
 #threebarc{
-    height:35px;
-    width: 35px;
+    height:2.2em;
+    width: 2.2em;
     padding-top: 1%;
 }
 
 #arrow{
-    height: 15px;
-    width: 25px;
+    height: 0.94em;
+    width: 1.7em;
     float: right;
 }

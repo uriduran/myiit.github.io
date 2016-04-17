@@ -53,7 +53,7 @@ body{
     }
 
 /*MORE SUBMENY STYLINGS*/
-#submenu{
+.submenu{
     background:#383838 ;
     font-size: 0.750em;
     padding-left: 0.313em;
@@ -82,7 +82,7 @@ body{
 }
 
 /*STYLING FOR THE LITTLE ARROWS NEXT TO MENU ITEMS*/
-#arrow{
+.arrow{
     height: 0.94em;
     width: 1.7em;
     float: right;

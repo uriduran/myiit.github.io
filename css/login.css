@@ -55,6 +55,11 @@ body{
 	font-family: Helvetica;
 	background: #f9f9f9;
 }
+h2{
+	font-size: 1.8em;
+	color: #484848;
+	line-height: 1.728em;
+}
 p{
 	font-size: 1.5em;
 	color: #c9c9c9;
@@ -110,4 +115,12 @@ input:focus{
 	background: #c9c9c9;
 	-webkit-appearance: none;
 	-moz-appearance: none;
+}
+footer{
+	background: #c9c9c9;
+	text-align: center;
+	padding: 2.822em 0 2.822em 0;
+}
+footer > a{
+	display: block;
 }

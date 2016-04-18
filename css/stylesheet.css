@@ -1,12 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*END OF RESET CSS*/
+
+/*CSS FOR BODY OF ALL PAGES*/
 body{
     margin: 0%;
     padding: 0%;
     background-color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    line-height: 1.575em;
     
 }
 
+/*START OF CSS FOR LOGIN PAGE*/
+h2{
+	font-size: 1.8em;
+	color: #484848;
+	line-height: 1.728em;
+}
+p{
+	font-size: 1.5em;
+	color: #c9c9c9;
+}
+a{
+	font-size: .937em;
+}
+label{
+	color: #484848;
+}
+#image{
+	width:6em;
+	margin: auto;
+	padding: 6em 0 4em 0;
+}
+img{
+	width: 6em;
+	margin: auto;
+}
+form{
+	margin: auto;
+	padding: 2.822em 0 10em 0;
+	width: 20em;
+}
+form > a{
+	float: right;
+	display: block;
+}
+input, label{
+	margin: auto;	
+	display: block;
+	width: 100%;
+}
+input{
+	border: .15em solid #c9c9c9;
+	border-radius: .188em;
+	padding: .3em;
+}
+input:focus{
+	border: .15em solid #484848;
+}
+#submit{
+	border: .05em solid #c9c9c9;
+	width:10em;
+	margin: 1.575em 0 0 0;
+	background: #c9c9c9;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+footer{
+	background: #c9c9c9;
+	text-align: center;
+	padding: 1.822em 0 1.822em 0;
+}
+footer > a{
+	display: block;
+}
+/*END OF LOGIN PAGE CSS*/
+
+/*START OF CSS FOR NAVIGATION BAR*/
 /*FOR THE TOP OF THE MENU BAR WITH THE IIT LOGO*/
 #menubar{
     width:100%;
@@ -35,7 +153,10 @@ body{
     }
 /*IIT LOGO IN THE TOP MENU BAR*/
 #logo{
- height:95%;
+ height: 3em;
+ width: 10em;
+ padding-top: 0.3em;
+ 
 }
 
 /*STYLINGS FOR THE MENU NAMES*/
@@ -96,6 +217,7 @@ body{
     width: 1.7em;
     float: right;
 }
+/*END OF NAV BAR CSS*/
 
 
 
@@ -193,6 +315,7 @@ body{
 /*END OF PERSONAL INFORMATION CSS*/
 
 
+/*START OF WELCOME PAGE CSS*/
 #welcome body{
     margin: 0%;
     padding: 0%;
@@ -205,7 +328,6 @@ body{
 	background-color: grey;
 	display: block;
 	text-align: left;
-	vertical-align: middle;
 	padding: 0.5em;
 	font-family: 'Lato', sans-serif;
 	color: white;
@@ -222,7 +344,6 @@ body{
 	background-color: grey;
 	display: block;
 	text-align: left;
-	vertical-align: middle;
 	padding: 1em;
 	font-family: 'Lato', sans-serif;
 	color: white;
@@ -237,7 +358,6 @@ body{
 #welcome section {
 	display: block;
 	text-align: left;
-	vertical-align: middle;
 	padding: 3em 0em 3em 0em;
 	font-family: 'Lato', sans-serif;
 }
@@ -291,17 +411,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 47.9375em) {
     /*Changes the personal information page for mobile.*/
     #section {
@@ -334,8 +443,5 @@ body{
         font-size: 0.85em;
     }   
     
-    #logo{
-        height: 70%;
-    }
 }
 

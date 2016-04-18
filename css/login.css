@@ -81,7 +81,7 @@ img{
 }
 form{
 	margin: auto;
-	padding: 2.822em 0 2.822em 0;
+	padding: 2.822em 0 10em 0;
 	width: 20em;
 }
 form > a{
@@ -112,7 +112,7 @@ input:focus{
 footer{
 	background: #c9c9c9;
 	text-align: center;
-	padding: 2.822em 0 2.822em 0;
+	padding: 1.822em 0 1.822em 0;
 }
 footer > a{
 	display: block;

@@ -128,3 +128,18 @@ table {
 }
 
 
+
+.emer-table {
+    border-collapse: collapse;
+    margin: 0em 5em 1em 5em;
+}
+
+.emer-table, th, td {
+    border: 1px solid black;
+    padding: 0.2em;
+}
+
+
+.mar-select {
+    margin-bottom: 1em;
+}

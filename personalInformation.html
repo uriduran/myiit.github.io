@@ -44,11 +44,35 @@
             <li>
                 <div class="section-header">
                     <div class="label">Phones</div>
-                    <div class="summary">ddddd</div>
+                    <div class="summary">312-467-3231</div>
                     <dit class="edit">edit</dit>
                 </div>
                 <div class="section-content">
-
+                    <div class="cotainer">
+                        <div class="bold">Local</div> <div class="content">312-467-3231</div>
+                        <div class="remove">
+                            <a href="">remove</a>
+                        </div>    
+                        <br>
+                        <div class="bold">Permanent</div>
+                        <div class="content">213-222-1234</div>
+                        <div class="remove">
+                            <a href="">remove</a>
+                        </div>
+                        <br>
+                        <div class="bold">University Housing</div>
+                        <div class="content">123-234-1342</div>
+                        <div class="remove">
+                            <a href="">remove</a>
+                        </div>
+                        <hr>
+                        <a href="">Add another phone</a>
+                        <hr>
+                        <div class="button">
+                            <button class="inner-button">Save Changes</button>
+                            <button class="inner-button">Cancel</button>
+                        </div>
+                    </div>
                 </div>
             </li>
             <li>
@@ -96,7 +120,7 @@
 
         $('#section > ul:eq(0)').show();
 
-        
+
         $(".inner-button").click(function() {
             $(this).parent().parent().parent().slideToggle(300);
         });

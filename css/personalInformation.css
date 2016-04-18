@@ -54,21 +54,21 @@ table {
 #section {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-	list-style: none;
-	padding: 0 0 0 0;
-	width: 50em;
+    list-style: none;
+    padding: 0 0 0 0;
+    width: 50em;
     display: block;
     margin: 10em auto;
 }
 
 #section .section-header{
-	display: block;
-	background-color: #F3F3F3;
-	margin: 0.2em;
+    display: block;
+    background-color: #F3F3F3;
+    margin: 0.2em;
     padding: 1em 0.2em;
-	cursor: pointer;
-	list-style: circle;
-	border-radius: 0.2em;
+    cursor: pointer;
+    list-style: circle;
+    border-radius: 0.2em;
     font-size: 0.937em;
 }
 
@@ -127,8 +127,6 @@ table {
     text-align: center;
 }
 
-
-
 .emer-table {
     border-collapse: collapse;
     margin: 0em 5em 1em 5em;
@@ -139,7 +137,39 @@ table {
     padding: 0.2em;
 }
 
-
 .mar-select {
     margin-bottom: 1em;
+}
+
+
+@media screen and (max-width: 47.9375em) {
+    #section {
+        width: 25em;
+        display: block;
+        margin: 4em auto;
+    }
+
+    #section .section-header .label {
+        font-weight: 700;
+        padding-left: 1em;
+    }
+
+    #section .section-header .summary {
+
+        padding: 0.5em 0em 0.5em 1em;
+    }
+
+    #section .section-header .edit {
+        text-decoration: underline;
+        padding-left: 30em;
+    }
+
+
+    .emer-table {
+        margin: 0em 5em 1em 4em;
+    }
+
+    #section .section-content{
+        font-size: 0.85em;
+    }
 }

@@ -79,20 +79,14 @@ img{
 	width: 6em;
 	margin: auto;
 }
-ul{
-	float: left;
-	width: 50%;
-	margin: auto;
-	padding: 2.822em 0 2.822em 0;
-	text-align: center;
-}
 form{
 	margin: auto;
 	padding: 2.822em 0 2.822em 0;
-	width: 16em;
+	width: 20em;
 }
 form > a{
 	float: right;
+	display: block;
 }
 input, label{
 	margin: auto;	
@@ -102,16 +96,15 @@ input, label{
 input{
 	border: .15em solid #c9c9c9;
 	border-radius: .188em;
-	padding: .2em;
+	padding: .3em;
 }
 input:focus{
 	border: .15em solid #484848;
 }
 #submit{
 	border: .05em solid #c9c9c9;
-	width:6em;
-	margin-left: 0;
-	margin-top: 1.5em;
+	width:10em;
+	margin: 1.575em 0 0 0;
 	background: #c9c9c9;
 	-webkit-appearance: none;
 	-moz-appearance: none;
